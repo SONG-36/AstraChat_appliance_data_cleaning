@@ -18,11 +18,28 @@ MODEL_PATTERN = re.compile(r"Model\s+([A-Z0-9\-]+)", re.IGNORECASE)
 POWER_PATTERN = re.compile(r"Power\s+(\d+)\s*W", re.IGNORECASE)
 VOLTAGE_PATTERN = re.compile(r"Voltage\s+(\d+)\s*V", re.IGNORECASE)
 
+# Chinese product model patterns
+MODEL_CN_PATTERNS = [
+    re.compile(r"产品型号[:：]?\s*([A-Z0-9\-]+)"),
+    re.compile(r"型号[:：]?\s*([A-Z0-9\-]+)")
+]
 
 def extract_model(text: str):
     match = MODEL_PATTERN.search(text)
     return match.group(1) if match else None
 
+def extract_model_cn(text: str):
+    """
+    Extract product model from Chinese OCR text.
+    Example matches:
+    - 产品型号：P8828
+    - 型号 P8828
+    """
+    for pattern in MODEL_CN_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            return match.group(1)
+    return None
 
 def extract_power(text: str):
     match = POWER_PATTERN.search(text)
@@ -60,6 +77,9 @@ def run_cleaning():
             status = row["status"]
 
             model = extract_model(raw_text)
+            if model is None:
+                model = extract_model_cn(raw_text)
+
             power_w = extract_power(raw_text)
             voltage_v = extract_voltage(raw_text)
 
