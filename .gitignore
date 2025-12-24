@@ -1,0 +1,20 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Extracted images and runtime data
+data/images/extracted/
+data/mappings/
+
+# OCR outputs / processed data
+data/processed/
+reports/
+
+# Logs
+*.log
