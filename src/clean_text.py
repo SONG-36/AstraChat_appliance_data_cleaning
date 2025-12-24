@@ -24,6 +24,17 @@ MODEL_CN_PATTERNS = [
     re.compile(r"型号[:：]?\s*([A-Z0-9\-]+)")
 ]
 
+# Chinese voltage and power patterns (V2.1)
+VOLTAGE_CN_PATTERNS = [
+    re.compile(r"额定电压[:：]?\s*(\d+)\s*V", re.IGNORECASE),
+    re.compile(r"电压[:：]?\s*(\d+)\s*V", re.IGNORECASE),
+]
+
+POWER_CN_PATTERNS = [
+    re.compile(r"额定功率[:：]?\s*(\d+)\s*W", re.IGNORECASE),
+    re.compile(r"功率[:：]?\s*(\d+)\s*W", re.IGNORECASE),
+]
+
 def extract_model(text: str):
     match = MODEL_PATTERN.search(text)
     return match.group(1) if match else None
@@ -41,15 +52,32 @@ def extract_model_cn(text: str):
             return match.group(1)
     return None
 
-def extract_power(text: str):
-    match = POWER_PATTERN.search(text)
-    return int(match.group(1)) if match else None
+def extract_voltage_cn(text: str):
+    """
+    Extract voltage value from Chinese OCR text.
+    Example matches:
+    - 额定电压：5V
+    - 电压 5V
+    """
+    for pattern in VOLTAGE_CN_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            return int(match.group(1))
+    return None
 
 
-def extract_voltage(text: str):
-    match = VOLTAGE_PATTERN.search(text)
-    return int(match.group(1)) if match else None
-
+def extract_power_cn(text: str):
+    """
+    Extract power value from Chinese OCR text.
+    Example matches:
+    - 额定功率：4W
+    - 功率 4W
+    """
+    for pattern in POWER_CN_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            return int(match.group(1))
+    return None
 
 def run_cleaning():
     import os
@@ -76,9 +104,20 @@ def run_cleaning():
             confidence = float(row["confidence"])
             status = row["status"]
 
+            # Model extraction (EN -> CN)
             model = extract_model(raw_text)
             if model is None:
                 model = extract_model_cn(raw_text)
+
+            # Voltage extraction (EN -> CN)
+            voltage_v = extract_voltage(raw_text)
+            if voltage_v is None:
+                voltage_v = extract_voltage_cn(raw_text)
+
+            # Power extraction (EN -> CN)
+            power_w = extract_power(raw_text)
+            if power_w is None:
+                power_w = extract_power_cn(raw_text)
 
             power_w = extract_power(raw_text)
             voltage_v = extract_voltage(raw_text)
