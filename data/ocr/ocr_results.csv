@@ -1,290 +1,290 @@
 image_id,raw_text,confidence,status
-doc_001_img_001,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_002,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.7,partial
-doc_001_img_003,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.58,partial
-doc_001_img_004,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.79,partial
-doc_001_img_005,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.81,success
-doc_001_img_006,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.89,success
-doc_001_img_007,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.76,partial
-doc_001_img_008,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.82,success
-doc_001_img_009,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.6,partial
-doc_001_img_010,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_011,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.58,partial
-doc_001_img_012,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.94,success
-doc_001_img_013,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.58,partial
-doc_001_img_014,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.75,partial
-doc_001_img_015,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.86,success
-doc_001_img_016,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.81,success
-doc_001_img_017,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.7,partial
-doc_001_img_018,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.74,partial
-doc_001_img_019,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.93,success
-doc_001_img_020,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.65,partial
-doc_001_img_021,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_022,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.61,partial
-doc_001_img_023,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_024,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.87,success
-doc_001_img_025,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.87,success
-doc_001_img_026,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.84,success
-doc_001_img_027,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.7,partial
-doc_001_img_028,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.84,success
-doc_001_img_029,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_030,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.72,partial
-doc_001_img_031,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.83,success
-doc_001_img_032,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.64,partial
-doc_001_img_033,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_034,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.72,partial
-doc_001_img_035,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.85,success
-doc_001_img_036,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.55,partial
-doc_001_img_037,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.93,success
-doc_001_img_038,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.76,partial
-doc_001_img_039,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.93,success
-doc_001_img_040,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.94,success
-doc_001_img_041,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.6,partial
-doc_001_img_042,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.91,success
-doc_001_img_043,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.92,success
-doc_001_img_044,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_045,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.94,success
-doc_001_img_046,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_047,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.75,partial
-doc_001_img_048,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.82,success
-doc_001_img_049,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.68,partial
-doc_001_img_050,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.77,partial
-doc_001_img_051,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.77,partial
-doc_001_img_052,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.55,partial
-doc_001_img_053,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.63,partial
-doc_001_img_054,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_055,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.77,partial
-doc_001_img_056,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.92,success
-doc_001_img_057,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.81,success
-doc_001_img_058,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.83,success
-doc_001_img_059,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_060,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.68,partial
-doc_001_img_061,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_062,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_063,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_064,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.93,success
-doc_001_img_065,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.59,partial
-doc_001_img_066,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_067,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_068,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.59,partial
-doc_001_img_069,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.87,success
-doc_001_img_070,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_071,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.82,success
-doc_001_img_072,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.77,partial
-doc_001_img_073,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.57,partial
-doc_001_img_074,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.7,partial
-doc_001_img_075,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_076,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.93,success
-doc_001_img_077,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_078,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.65,partial
-doc_001_img_079,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.93,success
-doc_001_img_080,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.94,success
-doc_001_img_081,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.57,partial
-doc_001_img_082,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.74,partial
-doc_001_img_083,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.74,partial
-doc_001_img_084,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.86,success
-doc_001_img_085,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.81,success
-doc_001_img_086,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.77,partial
-doc_001_img_087,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.61,partial
-doc_001_img_088,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.73,partial
-doc_001_img_089,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.9,success
-doc_001_img_090,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.73,partial
-doc_001_img_091,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.85,success
-doc_001_img_092,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.73,partial
-doc_001_img_093,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_094,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.75,partial
-doc_001_img_095,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.76,partial
-doc_001_img_096,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.73,partial
-doc_001_img_097,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.64,partial
-doc_001_img_098,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.74,partial
-doc_001_img_099,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.65,partial
-doc_001_img_100,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.77,partial
-doc_001_img_101,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_102,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.56,partial
-doc_001_img_103,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.75,partial
-doc_001_img_104,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.64,partial
-doc_001_img_105,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.56,partial
-doc_001_img_106,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_107,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.6,partial
-doc_001_img_108,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.89,success
-doc_001_img_109,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.77,partial
-doc_001_img_110,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.92,success
-doc_001_img_111,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.73,partial
-doc_001_img_112,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.7,partial
-doc_001_img_113,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.81,success
-doc_001_img_114,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_115,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.87,success
-doc_001_img_116,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.79,partial
-doc_001_img_117,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.57,partial
-doc_001_img_118,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.84,success
-doc_001_img_119,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.89,success
-doc_001_img_120,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_121,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_122,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.8,success
-doc_001_img_123,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.74,partial
-doc_001_img_124,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.55,partial
-doc_001_img_125,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.79,partial
-doc_001_img_126,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_127,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.72,partial
-doc_001_img_128,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.76,partial
-doc_001_img_129,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_130,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.83,success
-doc_001_img_131,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_132,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_133,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.86,success
-doc_001_img_134,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.57,partial
-doc_001_img_135,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.86,success
-doc_001_img_136,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.7,partial
-doc_001_img_137,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.76,partial
-doc_001_img_138,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.74,partial
-doc_001_img_139,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.72,partial
-doc_001_img_140,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.8,success
-doc_001_img_141,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_142,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.69,partial
-doc_001_img_143,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.95,success
-doc_001_img_144,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_145,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.73,partial
-doc_001_img_146,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.76,partial
-doc_001_img_147,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_148,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.69,partial
-doc_001_img_149,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.8,success
-doc_001_img_150,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_151,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_152,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.73,partial
-doc_001_img_153,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.84,success
-doc_001_img_154,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.6,partial
-doc_001_img_155,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.56,partial
-doc_001_img_156,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.95,success
-doc_001_img_157,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_158,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_159,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.57,partial
-doc_001_img_160,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_161,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.56,partial
-doc_001_img_162,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_163,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.6,partial
-doc_001_img_164,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.61,partial
-doc_001_img_165,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.8,success
-doc_001_img_166,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_167,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.73,partial
-doc_001_img_168,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.79,partial
-doc_001_img_169,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.94,success
-doc_001_img_170,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_171,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.91,success
-doc_001_img_172,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.57,partial
-doc_001_img_173,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.67,partial
-doc_001_img_174,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.65,partial
-doc_001_img_175,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.8,success
-doc_001_img_176,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.87,success
-doc_001_img_177,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.72,partial
-doc_001_img_178,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_179,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.9,success
-doc_001_img_180,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.65,partial
-doc_001_img_181,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.6,partial
-doc_001_img_182,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.75,partial
-doc_001_img_183,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.56,partial
-doc_001_img_184,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.91,success
-doc_001_img_185,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_186,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.64,partial
-doc_001_img_187,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_188,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.64,partial
-doc_001_img_189,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.92,success
-doc_001_img_190,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.81,success
-doc_001_img_191,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_192,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.58,partial
-doc_001_img_193,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.84,success
-doc_001_img_194,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_195,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.93,success
-doc_001_img_196,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.75,partial
-doc_001_img_197,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.85,success
-doc_001_img_198,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_199,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.67,partial
-doc_001_img_200,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.67,partial
-doc_001_img_201,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.94,success
-doc_001_img_202,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.83,success
-doc_001_img_203,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.69,partial
-doc_001_img_204,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.63,partial
-doc_001_img_205,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_206,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_207,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.72,partial
-doc_001_img_208,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.76,partial
-doc_001_img_209,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.74,partial
-doc_001_img_210,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_211,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.68,partial
-doc_001_img_212,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_213,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_214,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.8,success
-doc_001_img_215,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.72,partial
-doc_001_img_216,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_217,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.64,partial
-doc_001_img_218,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.82,success
-doc_001_img_219,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.85,success
-doc_001_img_220,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.91,success
-doc_001_img_221,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.8,success
-doc_001_img_222,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.79,partial
-doc_001_img_223,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.7,partial
-doc_001_img_224,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.82,success
-doc_001_img_225,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.56,partial
-doc_001_img_226,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.73,partial
-doc_001_img_227,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.87,success
-doc_001_img_228,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_229,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.56,partial
-doc_001_img_230,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.77,partial
-doc_001_img_231,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.82,success
-doc_001_img_232,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_233,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.78,partial
-doc_001_img_234,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_235,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.87,success
-doc_001_img_236,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_237,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.59,partial
-doc_001_img_238,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.6,partial
-doc_001_img_239,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.74,partial
-doc_001_img_240,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_241,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.56,partial
-doc_001_img_242,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.75,partial
-doc_001_img_243,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.7,partial
-doc_001_img_244,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.76,partial
-doc_001_img_245,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.75,partial
-doc_001_img_246,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.79,partial
-doc_001_img_247,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.65,partial
-doc_001_img_248,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.82,success
-doc_001_img_249,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.74,partial
-doc_001_img_250,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.67,partial
-doc_001_img_251,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.8,success
-doc_001_img_252,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.87,success
-doc_001_img_253,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.59,partial
-doc_001_img_254,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.93,success
-doc_001_img_255,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.6,partial
-doc_001_img_256,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.87,success
-doc_001_img_257,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.59,partial
-doc_001_img_258,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.91,success
-doc_001_img_259,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.6,partial
-doc_001_img_260,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.66,partial
-doc_001_img_261,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.73,partial
-doc_001_img_262,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.7,partial
-doc_001_img_263,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_264,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_265,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.85,success
-doc_001_img_266,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_267,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.68,partial
-doc_001_img_268,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.68,partial
-doc_001_img_269,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.61,partial
-doc_001_img_270,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.87,success
-doc_001_img_271,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.55,partial
-doc_001_img_272,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.92,success
-doc_001_img_273,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.71,partial
-doc_001_img_274,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.72,partial
-doc_001_img_275,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.86,success
-doc_001_img_276,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.56,partial
-doc_001_img_277,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.88,success
-doc_001_img_278,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.56,partial
-doc_001_img_279,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.85,success
-doc_001_img_280,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.72,partial
-doc_001_img_281,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.75,partial
-doc_001_img_282,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.7,partial
-doc_001_img_283,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.84,success
-doc_001_img_284,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.68,partial
-doc_001_img_285,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.57,partial
-doc_001_img_286,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.62,partial
-doc_001_img_287,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.65,partial
-doc_001_img_288,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.83,success
-doc_001_img_289,Mock OCR: Model ABC-123; Power 800W; Voltage 220V,0.79,partial
+doc_001_img_001,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_002,产品型号：P8828 额定电压：5V 额定功率：4W,0.85,success
+doc_001_img_003,产品型号：P8828 额定电压：5V 额定功率：4W,0.82,success
+doc_001_img_004,产品型号：P8828 额定电压：5V 额定功率：4W,0.85,success
+doc_001_img_005,产品型号：P8828 额定电压：5V 额定功率：4W,0.56,partial
+doc_001_img_006,产品型号：P8828 额定电压：5V 额定功率：4W,0.81,success
+doc_001_img_007,产品型号：P8828 额定电压：5V 额定功率：4W,0.69,partial
+doc_001_img_008,产品型号：P8828 额定电压：5V 额定功率：4W,0.6,partial
+doc_001_img_009,产品型号：P8828 额定电压：5V 额定功率：4W,0.77,partial
+doc_001_img_010,产品型号：P8828 额定电压：5V 额定功率：4W,0.92,success
+doc_001_img_011,产品型号：P8828 额定电压：5V 额定功率：4W,0.69,partial
+doc_001_img_012,产品型号：P8828 额定电压：5V 额定功率：4W,0.68,partial
+doc_001_img_013,产品型号：P8828 额定电压：5V 额定功率：4W,0.81,success
+doc_001_img_014,产品型号：P8828 额定电压：5V 额定功率：4W,0.73,partial
+doc_001_img_015,产品型号：P8828 额定电压：5V 额定功率：4W,0.57,partial
+doc_001_img_016,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_017,产品型号：P8828 额定电压：5V 额定功率：4W,0.62,partial
+doc_001_img_018,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_019,产品型号：P8828 额定电压：5V 额定功率：4W,0.62,partial
+doc_001_img_020,产品型号：P8828 额定电压：5V 额定功率：4W,0.61,partial
+doc_001_img_021,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_022,产品型号：P8828 额定电压：5V 额定功率：4W,0.88,success
+doc_001_img_023,产品型号：P8828 额定电压：5V 额定功率：4W,0.61,partial
+doc_001_img_024,产品型号：P8828 额定电压：5V 额定功率：4W,0.69,partial
+doc_001_img_025,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_026,产品型号：P8828 额定电压：5V 额定功率：4W,0.59,partial
+doc_001_img_027,产品型号：P8828 额定电压：5V 额定功率：4W,0.92,success
+doc_001_img_028,产品型号：P8828 额定电压：5V 额定功率：4W,0.93,success
+doc_001_img_029,产品型号：P8828 额定电压：5V 额定功率：4W,0.9,success
+doc_001_img_030,产品型号：P8828 额定电压：5V 额定功率：4W,0.71,partial
+doc_001_img_031,产品型号：P8828 额定电压：5V 额定功率：4W,0.86,success
+doc_001_img_032,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_033,产品型号：P8828 额定电压：5V 额定功率：4W,0.89,success
+doc_001_img_034,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_035,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_036,产品型号：P8828 额定电压：5V 额定功率：4W,0.58,partial
+doc_001_img_037,产品型号：P8828 额定电压：5V 额定功率：4W,0.87,success
+doc_001_img_038,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_039,产品型号：P8828 额定电压：5V 额定功率：4W,0.94,success
+doc_001_img_040,产品型号：P8828 额定电压：5V 额定功率：4W,0.9,success
+doc_001_img_041,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_042,产品型号：P8828 额定电压：5V 额定功率：4W,0.72,partial
+doc_001_img_043,产品型号：P8828 额定电压：5V 额定功率：4W,0.69,partial
+doc_001_img_044,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_045,产品型号：P8828 额定电压：5V 额定功率：4W,0.73,partial
+doc_001_img_046,产品型号：P8828 额定电压：5V 额定功率：4W,0.6,partial
+doc_001_img_047,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_048,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_049,产品型号：P8828 额定电压：5V 额定功率：4W,0.94,success
+doc_001_img_050,产品型号：P8828 额定电压：5V 额定功率：4W,0.61,partial
+doc_001_img_051,产品型号：P8828 额定电压：5V 额定功率：4W,0.95,success
+doc_001_img_052,产品型号：P8828 额定电压：5V 额定功率：4W,0.63,partial
+doc_001_img_053,产品型号：P8828 额定电压：5V 额定功率：4W,0.89,success
+doc_001_img_054,产品型号：P8828 额定电压：5V 额定功率：4W,0.82,success
+doc_001_img_055,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_056,产品型号：P8828 额定电压：5V 额定功率：4W,0.91,success
+doc_001_img_057,产品型号：P8828 额定电压：5V 额定功率：4W,0.85,success
+doc_001_img_058,产品型号：P8828 额定电压：5V 额定功率：4W,0.7,partial
+doc_001_img_059,产品型号：P8828 额定电压：5V 额定功率：4W,0.86,success
+doc_001_img_060,产品型号：P8828 额定电压：5V 额定功率：4W,0.81,success
+doc_001_img_061,产品型号：P8828 额定电压：5V 额定功率：4W,0.7,partial
+doc_001_img_062,产品型号：P8828 额定电压：5V 额定功率：4W,0.87,success
+doc_001_img_063,产品型号：P8828 额定电压：5V 额定功率：4W,0.62,partial
+doc_001_img_064,产品型号：P8828 额定电压：5V 额定功率：4W,0.63,partial
+doc_001_img_065,产品型号：P8828 额定电压：5V 额定功率：4W,0.77,partial
+doc_001_img_066,产品型号：P8828 额定电压：5V 额定功率：4W,0.58,partial
+doc_001_img_067,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_068,产品型号：P8828 额定电压：5V 额定功率：4W,0.55,partial
+doc_001_img_069,产品型号：P8828 额定电压：5V 额定功率：4W,0.81,success
+doc_001_img_070,产品型号：P8828 额定电压：5V 额定功率：4W,0.85,success
+doc_001_img_071,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_072,产品型号：P8828 额定电压：5V 额定功率：4W,0.68,partial
+doc_001_img_073,产品型号：P8828 额定电压：5V 额定功率：4W,0.82,success
+doc_001_img_074,产品型号：P8828 额定电压：5V 额定功率：4W,0.88,success
+doc_001_img_075,产品型号：P8828 额定电压：5V 额定功率：4W,0.62,partial
+doc_001_img_076,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_077,产品型号：P8828 额定电压：5V 额定功率：4W,0.9,success
+doc_001_img_078,产品型号：P8828 额定电压：5V 额定功率：4W,0.6,partial
+doc_001_img_079,产品型号：P8828 额定电压：5V 额定功率：4W,0.82,success
+doc_001_img_080,产品型号：P8828 额定电压：5V 额定功率：4W,0.68,partial
+doc_001_img_081,产品型号：P8828 额定电压：5V 额定功率：4W,0.63,partial
+doc_001_img_082,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_083,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_084,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_085,产品型号：P8828 额定电压：5V 额定功率：4W,0.69,partial
+doc_001_img_086,产品型号：P8828 额定电压：5V 额定功率：4W,0.81,success
+doc_001_img_087,产品型号：P8828 额定电压：5V 额定功率：4W,0.7,partial
+doc_001_img_088,产品型号：P8828 额定电压：5V 额定功率：4W,0.67,partial
+doc_001_img_089,产品型号：P8828 额定电压：5V 额定功率：4W,0.87,success
+doc_001_img_090,产品型号：P8828 额定电压：5V 额定功率：4W,0.87,success
+doc_001_img_091,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_092,产品型号：P8828 额定电压：5V 额定功率：4W,0.86,success
+doc_001_img_093,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_094,产品型号：P8828 额定电压：5V 额定功率：4W,0.61,partial
+doc_001_img_095,产品型号：P8828 额定电压：5V 额定功率：4W,0.67,partial
+doc_001_img_096,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_097,产品型号：P8828 额定电压：5V 额定功率：4W,0.77,partial
+doc_001_img_098,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_099,产品型号：P8828 额定电压：5V 额定功率：4W,0.58,partial
+doc_001_img_100,产品型号：P8828 额定电压：5V 额定功率：4W,0.91,success
+doc_001_img_101,产品型号：P8828 额定电压：5V 额定功率：4W,0.72,partial
+doc_001_img_102,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_103,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_104,产品型号：P8828 额定电压：5V 额定功率：4W,0.59,partial
+doc_001_img_105,产品型号：P8828 额定电压：5V 额定功率：4W,0.83,success
+doc_001_img_106,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_107,产品型号：P8828 额定电压：5V 额定功率：4W,0.76,partial
+doc_001_img_108,产品型号：P8828 额定电压：5V 额定功率：4W,0.91,success
+doc_001_img_109,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_110,产品型号：P8828 额定电压：5V 额定功率：4W,0.57,partial
+doc_001_img_111,产品型号：P8828 额定电压：5V 额定功率：4W,0.71,partial
+doc_001_img_112,产品型号：P8828 额定电压：5V 额定功率：4W,0.9,success
+doc_001_img_113,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_114,产品型号：P8828 额定电压：5V 额定功率：4W,0.57,partial
+doc_001_img_115,产品型号：P8828 额定电压：5V 额定功率：4W,0.93,success
+doc_001_img_116,产品型号：P8828 额定电压：5V 额定功率：4W,0.72,partial
+doc_001_img_117,产品型号：P8828 额定电压：5V 额定功率：4W,0.91,success
+doc_001_img_118,产品型号：P8828 额定电压：5V 额定功率：4W,0.87,success
+doc_001_img_119,产品型号：P8828 额定电压：5V 额定功率：4W,0.68,partial
+doc_001_img_120,产品型号：P8828 额定电压：5V 额定功率：4W,0.59,partial
+doc_001_img_121,产品型号：P8828 额定电压：5V 额定功率：4W,0.56,partial
+doc_001_img_122,产品型号：P8828 额定电压：5V 额定功率：4W,0.85,success
+doc_001_img_123,产品型号：P8828 额定电压：5V 额定功率：4W,0.62,partial
+doc_001_img_124,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_125,产品型号：P8828 额定电压：5V 额定功率：4W,0.65,partial
+doc_001_img_126,产品型号：P8828 额定电压：5V 额定功率：4W,0.67,partial
+doc_001_img_127,产品型号：P8828 额定电压：5V 额定功率：4W,0.85,success
+doc_001_img_128,产品型号：P8828 额定电压：5V 额定功率：4W,0.89,success
+doc_001_img_129,产品型号：P8828 额定电压：5V 额定功率：4W,0.6,partial
+doc_001_img_130,产品型号：P8828 额定电压：5V 额定功率：4W,0.7,partial
+doc_001_img_131,产品型号：P8828 额定电压：5V 额定功率：4W,0.7,partial
+doc_001_img_132,产品型号：P8828 额定电压：5V 额定功率：4W,0.74,partial
+doc_001_img_133,产品型号：P8828 额定电压：5V 额定功率：4W,0.68,partial
+doc_001_img_134,产品型号：P8828 额定电压：5V 额定功率：4W,0.93,success
+doc_001_img_135,产品型号：P8828 额定电压：5V 额定功率：4W,0.93,success
+doc_001_img_136,产品型号：P8828 额定电压：5V 额定功率：4W,0.94,success
+doc_001_img_137,产品型号：P8828 额定电压：5V 额定功率：4W,0.61,partial
+doc_001_img_138,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_139,产品型号：P8828 额定电压：5V 额定功率：4W,0.62,partial
+doc_001_img_140,产品型号：P8828 额定电压：5V 额定功率：4W,0.83,success
+doc_001_img_141,产品型号：P8828 额定电压：5V 额定功率：4W,0.91,success
+doc_001_img_142,产品型号：P8828 额定电压：5V 额定功率：4W,0.81,success
+doc_001_img_143,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_144,产品型号：P8828 额定电压：5V 额定功率：4W,0.87,success
+doc_001_img_145,产品型号：P8828 额定电压：5V 额定功率：4W,0.62,partial
+doc_001_img_146,产品型号：P8828 额定电压：5V 额定功率：4W,0.59,partial
+doc_001_img_147,产品型号：P8828 额定电压：5V 额定功率：4W,0.93,success
+doc_001_img_148,产品型号：P8828 额定电压：5V 额定功率：4W,0.74,partial
+doc_001_img_149,产品型号：P8828 额定电压：5V 额定功率：4W,0.85,success
+doc_001_img_150,产品型号：P8828 额定电压：5V 额定功率：4W,0.86,success
+doc_001_img_151,产品型号：P8828 额定电压：5V 额定功率：4W,0.69,partial
+doc_001_img_152,产品型号：P8828 额定电压：5V 额定功率：4W,0.77,partial
+doc_001_img_153,产品型号：P8828 额定电压：5V 额定功率：4W,0.77,partial
+doc_001_img_154,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_155,产品型号：P8828 额定电压：5V 额定功率：4W,0.62,partial
+doc_001_img_156,产品型号：P8828 额定电压：5V 额定功率：4W,0.7,partial
+doc_001_img_157,产品型号：P8828 额定电压：5V 额定功率：4W,0.56,partial
+doc_001_img_158,产品型号：P8828 额定电压：5V 额定功率：4W,0.85,success
+doc_001_img_159,产品型号：P8828 额定电压：5V 额定功率：4W,0.77,partial
+doc_001_img_160,产品型号：P8828 额定电压：5V 额定功率：4W,0.72,partial
+doc_001_img_161,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_162,产品型号：P8828 额定电压：5V 额定功率：4W,0.93,success
+doc_001_img_163,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_164,产品型号：P8828 额定电压：5V 额定功率：4W,0.93,success
+doc_001_img_165,产品型号：P8828 额定电压：5V 额定功率：4W,0.6,partial
+doc_001_img_166,产品型号：P8828 额定电压：5V 额定功率：4W,0.87,success
+doc_001_img_167,产品型号：P8828 额定电压：5V 额定功率：4W,0.61,partial
+doc_001_img_168,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_169,产品型号：P8828 额定电压：5V 额定功率：4W,0.93,success
+doc_001_img_170,产品型号：P8828 额定电压：5V 额定功率：4W,0.87,success
+doc_001_img_171,产品型号：P8828 额定电压：5V 额定功率：4W,0.56,partial
+doc_001_img_172,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_173,产品型号：P8828 额定电压：5V 额定功率：4W,0.74,partial
+doc_001_img_174,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_175,产品型号：P8828 额定电压：5V 额定功率：4W,0.69,partial
+doc_001_img_176,产品型号：P8828 额定电压：5V 额定功率：4W,0.89,success
+doc_001_img_177,产品型号：P8828 额定电压：5V 额定功率：4W,0.95,success
+doc_001_img_178,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_179,产品型号：P8828 额定电压：5V 额定功率：4W,0.73,partial
+doc_001_img_180,产品型号：P8828 额定电压：5V 额定功率：4W,0.65,partial
+doc_001_img_181,产品型号：P8828 额定电压：5V 额定功率：4W,0.61,partial
+doc_001_img_182,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_183,产品型号：P8828 额定电压：5V 额定功率：4W,0.77,partial
+doc_001_img_184,产品型号：P8828 额定电压：5V 额定功率：4W,0.59,partial
+doc_001_img_185,产品型号：P8828 额定电压：5V 额定功率：4W,0.83,success
+doc_001_img_186,产品型号：P8828 额定电压：5V 额定功率：4W,0.65,partial
+doc_001_img_187,产品型号：P8828 额定电压：5V 额定功率：4W,0.57,partial
+doc_001_img_188,产品型号：P8828 额定电压：5V 额定功率：4W,0.83,success
+doc_001_img_189,产品型号：P8828 额定电压：5V 额定功率：4W,0.6,partial
+doc_001_img_190,产品型号：P8828 额定电压：5V 额定功率：4W,0.93,success
+doc_001_img_191,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_192,产品型号：P8828 额定电压：5V 额定功率：4W,0.82,success
+doc_001_img_193,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_194,产品型号：P8828 额定电压：5V 额定功率：4W,0.77,partial
+doc_001_img_195,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_196,产品型号：P8828 额定电压：5V 额定功率：4W,0.94,success
+doc_001_img_197,产品型号：P8828 额定电压：5V 额定功率：4W,0.88,success
+doc_001_img_198,产品型号：P8828 额定电压：5V 额定功率：4W,0.73,partial
+doc_001_img_199,产品型号：P8828 额定电压：5V 额定功率：4W,0.94,success
+doc_001_img_200,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_201,产品型号：P8828 额定电压：5V 额定功率：4W,0.68,partial
+doc_001_img_202,产品型号：P8828 额定电压：5V 额定功率：4W,0.67,partial
+doc_001_img_203,产品型号：P8828 额定电压：5V 额定功率：4W,0.88,success
+doc_001_img_204,产品型号：P8828 额定电压：5V 额定功率：4W,0.62,partial
+doc_001_img_205,产品型号：P8828 额定电压：5V 额定功率：4W,0.7,partial
+doc_001_img_206,产品型号：P8828 额定电压：5V 额定功率：4W,0.76,partial
+doc_001_img_207,产品型号：P8828 额定电压：5V 额定功率：4W,0.55,partial
+doc_001_img_208,产品型号：P8828 额定电压：5V 额定功率：4W,0.74,partial
+doc_001_img_209,产品型号：P8828 额定电压：5V 额定功率：4W,0.7,partial
+doc_001_img_210,产品型号：P8828 额定电压：5V 额定功率：4W,0.64,partial
+doc_001_img_211,产品型号：P8828 额定电压：5V 额定功率：4W,0.95,success
+doc_001_img_212,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_213,产品型号：P8828 额定电压：5V 额定功率：4W,0.7,partial
+doc_001_img_214,产品型号：P8828 额定电压：5V 额定功率：4W,0.79,partial
+doc_001_img_215,产品型号：P8828 额定电压：5V 额定功率：4W,0.91,success
+doc_001_img_216,产品型号：P8828 额定电压：5V 额定功率：4W,0.92,success
+doc_001_img_217,产品型号：P8828 额定电压：5V 额定功率：4W,0.59,partial
+doc_001_img_218,产品型号：P8828 额定电压：5V 额定功率：4W,0.57,partial
+doc_001_img_219,产品型号：P8828 额定电压：5V 额定功率：4W,0.81,success
+doc_001_img_220,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_221,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_222,产品型号：P8828 额定电压：5V 额定功率：4W,0.86,success
+doc_001_img_223,产品型号：P8828 额定电压：5V 额定功率：4W,0.65,partial
+doc_001_img_224,产品型号：P8828 额定电压：5V 额定功率：4W,0.88,success
+doc_001_img_225,产品型号：P8828 额定电压：5V 额定功率：4W,0.65,partial
+doc_001_img_226,产品型号：P8828 额定电压：5V 额定功率：4W,0.71,partial
+doc_001_img_227,产品型号：P8828 额定电压：5V 额定功率：4W,0.86,success
+doc_001_img_228,产品型号：P8828 额定电压：5V 额定功率：4W,0.93,success
+doc_001_img_229,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_230,产品型号：P8828 额定电压：5V 额定功率：4W,0.71,partial
+doc_001_img_231,产品型号：P8828 额定电压：5V 额定功率：4W,0.89,success
+doc_001_img_232,产品型号：P8828 额定电压：5V 额定功率：4W,0.56,partial
+doc_001_img_233,产品型号：P8828 额定电压：5V 额定功率：4W,0.7,partial
+doc_001_img_234,产品型号：P8828 额定电压：5V 额定功率：4W,0.59,partial
+doc_001_img_235,产品型号：P8828 额定电压：5V 额定功率：4W,0.82,success
+doc_001_img_236,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_237,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_238,产品型号：P8828 额定电压：5V 额定功率：4W,0.62,partial
+doc_001_img_239,产品型号：P8828 额定电压：5V 额定功率：4W,0.85,success
+doc_001_img_240,产品型号：P8828 额定电压：5V 额定功率：4W,0.56,partial
+doc_001_img_241,产品型号：P8828 额定电压：5V 额定功率：4W,0.87,success
+doc_001_img_242,产品型号：P8828 额定电压：5V 额定功率：4W,0.9,success
+doc_001_img_243,产品型号：P8828 额定电压：5V 额定功率：4W,0.85,success
+doc_001_img_244,产品型号：P8828 额定电压：5V 额定功率：4W,0.63,partial
+doc_001_img_245,产品型号：P8828 额定电压：5V 额定功率：4W,0.94,success
+doc_001_img_246,产品型号：P8828 额定电压：5V 额定功率：4W,0.55,partial
+doc_001_img_247,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_248,产品型号：P8828 额定电压：5V 额定功率：4W,0.58,partial
+doc_001_img_249,产品型号：P8828 额定电压：5V 额定功率：4W,0.66,partial
+doc_001_img_250,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_251,产品型号：P8828 额定电压：5V 额定功率：4W,0.95,success
+doc_001_img_252,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_253,产品型号：P8828 额定电压：5V 额定功率：4W,0.76,partial
+doc_001_img_254,产品型号：P8828 额定电压：5V 额定功率：4W,0.81,success
+doc_001_img_255,产品型号：P8828 额定电压：5V 额定功率：4W,0.73,partial
+doc_001_img_256,产品型号：P8828 额定电压：5V 额定功率：4W,0.63,partial
+doc_001_img_257,产品型号：P8828 额定电压：5V 额定功率：4W,0.91,success
+doc_001_img_258,产品型号：P8828 额定电压：5V 额定功率：4W,0.6,partial
+doc_001_img_259,产品型号：P8828 额定电压：5V 额定功率：4W,0.71,partial
+doc_001_img_260,产品型号：P8828 额定电压：5V 额定功率：4W,0.78,partial
+doc_001_img_261,产品型号：P8828 额定电压：5V 额定功率：4W,0.64,partial
+doc_001_img_262,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_263,产品型号：P8828 额定电压：5V 额定功率：4W,0.74,partial
+doc_001_img_264,产品型号：P8828 额定电压：5V 额定功率：4W,0.92,success
+doc_001_img_265,产品型号：P8828 额定电压：5V 额定功率：4W,0.76,partial
+doc_001_img_266,产品型号：P8828 额定电压：5V 额定功率：4W,0.63,partial
+doc_001_img_267,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_268,产品型号：P8828 额定电压：5V 额定功率：4W,0.83,success
+doc_001_img_269,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_270,产品型号：P8828 额定电压：5V 额定功率：4W,0.89,success
+doc_001_img_271,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_272,产品型号：P8828 额定电压：5V 额定功率：4W,0.83,success
+doc_001_img_273,产品型号：P8828 额定电压：5V 额定功率：4W,0.77,partial
+doc_001_img_274,产品型号：P8828 额定电压：5V 额定功率：4W,0.57,partial
+doc_001_img_275,产品型号：P8828 额定电压：5V 额定功率：4W,0.71,partial
+doc_001_img_276,产品型号：P8828 额定电压：5V 额定功率：4W,0.86,success
+doc_001_img_277,产品型号：P8828 额定电压：5V 额定功率：4W,0.68,partial
+doc_001_img_278,产品型号：P8828 额定电压：5V 额定功率：4W,0.87,success
+doc_001_img_279,产品型号：P8828 额定电压：5V 额定功率：4W,0.75,partial
+doc_001_img_280,产品型号：P8828 额定电压：5V 额定功率：4W,0.74,partial
+doc_001_img_281,产品型号：P8828 额定电压：5V 额定功率：4W,0.8,success
+doc_001_img_282,产品型号：P8828 额定电压：5V 额定功率：4W,0.73,partial
+doc_001_img_283,产品型号：P8828 额定电压：5V 额定功率：4W,0.63,partial
+doc_001_img_284,产品型号：P8828 额定电压：5V 额定功率：4W,0.73,partial
+doc_001_img_285,产品型号：P8828 额定电压：5V 额定功率：4W,0.84,success
+doc_001_img_286,产品型号：P8828 额定电压：5V 额定功率：4W,0.91,success
+doc_001_img_287,产品型号：P8828 额定电压：5V 额定功率：4W,0.68,partial
+doc_001_img_288,产品型号：P8828 额定电压：5V 额定功率：4W,0.91,success
+doc_001_img_289,产品型号：P8828 额定电压：5V 额定功率：4W,0.71,partial
