@@ -14,6 +14,10 @@ from datetime import datetime
 INPUT_PATH = "data/ocr/ocr_results.csv"
 OUTPUT_PATH = "data/processed/processed_products_v2.csv"
 
+COLOR_KEYWORDS = [
+    "黑色", "白色", "灰色", "银色",
+    "红色", "蓝色", "绿色",
+]
 
 # ---------- Regex patterns ----------
 
@@ -33,20 +37,37 @@ POWER_CN_PATTERNS = [
 ]
 
 CHARGING_TIME_CN_PATTERNS = [
-    re.compile(r"充电时间[:：]?\s*([\d\.]+)\s*小时"),
-    re.compile(r"快充\s*([\d\.]+)\s*小时"),
+    # 标准：充电时间：1.5小时
+    re.compile(r"充电时间[:：]?\s*([\d\.]+)\s*(小时|h)", re.IGNORECASE),
+
+    # 快充1.5小时
+    re.compile(r"快充\s*([\d\.]+)\s*(小时|h)", re.IGNORECASE),
+
+    # 容错：时间 1.5B（OCR 把 小时 识成 B）
+    re.compile(r"时间\s*([\d\.]+)\s*[bB]", re.IGNORECASE),
 ]
 
 RUNTIME_CN_PATTERNS = [
+    # 标准：续航约60分钟 / 续航60分钟
     re.compile(r"续航[:：]?\s*约?\s*(\d+)\s*分钟"),
-    re.compile(r"续航约(\d+)分钟"),
+
+    # 续航时间60分钟
+    re.compile(r"续航时间[:：]?\s*(\d+)\s*分钟"),
 ]
 
-WEIGHT_CN_PATTERNS = [
+
+WEIGHT_NET_CN_PATTERNS = [
+    # 产品净重：186g
     re.compile(r"产品净重[:：]?\s*(\d+)\s*g", re.IGNORECASE),
+
+    # 净重：186g
     re.compile(r"净重[:：]?\s*(\d+)\s*g", re.IGNORECASE),
 ]
 
+COLOR_CN_PATTERNS = [
+    re.compile(r"产品颜色\s*[:：，,]?\s*([^\s，,]+)"),
+    re.compile(r"颜色\s*[:：，,]?\s*([^\s，,]+)"),
+]
 
 # ---------- Extractors ----------
 
@@ -61,10 +82,37 @@ def _extract(patterns, text, cast_fn):
 def extract_model(text): return _extract(MODEL_CN_PATTERNS, text, str)
 def extract_voltage(text): return _extract(VOLTAGE_CN_PATTERNS, text, int)
 def extract_power(text): return _extract(POWER_CN_PATTERNS, text, int)
-def extract_charging_time(text): return _extract(CHARGING_TIME_CN_PATTERNS, text, float)
-def extract_runtime(text): return _extract(RUNTIME_CN_PATTERNS, text, int)
-def extract_weight(text): return _extract(WEIGHT_CN_PATTERNS, text, int)
 
+def extract_charging_time(text: str):
+    for pattern in CHARGING_TIME_CN_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            return float(match.group(1))
+    return None
+
+def extract_runtime(text: str):
+    for pattern in RUNTIME_CN_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            return int(match.group(1))
+    return None
+
+def extract_weight(text: str):
+    for pattern in WEIGHT_NET_CN_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            return int(match.group(1))
+    return None
+
+def extract_color(text: str):
+    for pattern in COLOR_CN_PATTERNS:
+        match = pattern.search(text)
+        if match:
+            candidate = match.group(1)
+            for color in COLOR_KEYWORDS:
+                if color in candidate:
+                    return color
+    return None
 
 # ---------- Main ----------
 
@@ -83,6 +131,7 @@ def run_cleaning():
             "charging_time_h",
             "runtime_min",
             "weight_g",
+            "color",
             "confidence",
             "status",
             "raw_ocr_text",
@@ -104,6 +153,7 @@ def run_cleaning():
             charging_time_h = extract_charging_time(raw_text)
             runtime_min = extract_runtime(raw_text)
             weight_g = extract_weight(raw_text)
+            color = extract_color(raw_text)
 
             if model is None or voltage_v is None or power_w is None:
                 status = "partial"
@@ -116,6 +166,7 @@ def run_cleaning():
                 "charging_time_h": charging_time_h,
                 "runtime_min": runtime_min,
                 "weight_g": weight_g,
+                "color": color,
                 "confidence": confidence,
                 "status": status,
                 "raw_ocr_text": raw_text,

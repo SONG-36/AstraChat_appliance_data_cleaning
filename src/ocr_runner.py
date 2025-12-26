@@ -8,13 +8,17 @@ and writes raw OCR results to a CSV file.
 import csv
 import os
 
+# ocr_runner.py
 from ocr_mock import MockOCREngine
+from ocr_tesseract import TesseractOCREngine
 
+USE_MOCK = False  # ← 切换点
+
+engine = MockOCREngine() if USE_MOCK else TesseractOCREngine()
 
 IMAGE_DIR = "data/images/extracted"
 MAPPING_PATH = "data/mappings/image_mapping.csv"
 OUTPUT_PATH = "data/ocr/ocr_results.csv"
-
 
 def ensure_output_dir():
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
@@ -22,7 +26,6 @@ def ensure_output_dir():
 
 def run_ocr():
     ensure_output_dir()
-    engine = MockOCREngine()
 
     with open(MAPPING_PATH, "r", encoding="utf-8") as infile, \
          open(OUTPUT_PATH, "w", newline="", encoding="utf-8") as outfile:

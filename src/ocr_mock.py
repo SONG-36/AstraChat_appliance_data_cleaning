@@ -16,10 +16,10 @@ class MockOCREngine:
 
         # Simulated realistic OCR output
         raw_text = (
-            "产品型号：P8828 "
-            "额定电压：5V "
+            "型号：P8828 "
+            "电压：5V "
             "额定功率：4W "
-            "充电时间：1.5小时 "
+            "快充：1.5小时 "
             "续航约60分钟 "
             "产品净重：186g"
         )
