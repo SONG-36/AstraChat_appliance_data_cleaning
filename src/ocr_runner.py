@@ -17,13 +17,11 @@ OUTPUT_PATH = "data/ocr/ocr_results.csv"
 
 
 def ensure_output_dir():
-    """Ensure OCR output directory exists."""
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
 
 def run_ocr():
     ensure_output_dir()
-
     engine = MockOCREngine()
 
     with open(MAPPING_PATH, "r", encoding="utf-8") as infile, \

@@ -1,30 +1,27 @@
 """
-Clean OCR text and extract structured product fields (V1).
+Clean OCR text and extract structured product fields (V2).
 
-This script converts raw OCR output into a minimal, stable
-structured dataset suitable for first delivery.
+Converts raw OCR output into a structured dataset suitable
+for delivery or downstream analytics.
 """
 
 import csv
 import re
+import os
 from datetime import datetime
 
 
 INPUT_PATH = "data/ocr/ocr_results.csv"
-OUTPUT_PATH = "data/processed/processed_products_v1.csv"
+OUTPUT_PATH = "data/processed/processed_products_v2.csv"
 
 
-MODEL_PATTERN = re.compile(r"Model\s+([A-Z0-9\-]+)", re.IGNORECASE)
-POWER_PATTERN = re.compile(r"Power\s+(\d+)\s*W", re.IGNORECASE)
-VOLTAGE_PATTERN = re.compile(r"Voltage\s+(\d+)\s*V", re.IGNORECASE)
+# ---------- Regex patterns ----------
 
-# Chinese product model patterns
 MODEL_CN_PATTERNS = [
     re.compile(r"产品型号[:：]?\s*([A-Z0-9\-]+)"),
-    re.compile(r"型号[:：]?\s*([A-Z0-9\-]+)")
+    re.compile(r"型号[:：]?\s*([A-Z0-9\-]+)"),
 ]
 
-# Chinese voltage and power patterns (V2.1)
 VOLTAGE_CN_PATTERNS = [
     re.compile(r"额定电压[:：]?\s*(\d+)\s*V", re.IGNORECASE),
     re.compile(r"电压[:：]?\s*(\d+)\s*V", re.IGNORECASE),
@@ -35,53 +32,44 @@ POWER_CN_PATTERNS = [
     re.compile(r"功率[:：]?\s*(\d+)\s*W", re.IGNORECASE),
 ]
 
-def extract_model(text: str):
-    match = MODEL_PATTERN.search(text)
-    return match.group(1) if match else None
+CHARGING_TIME_CN_PATTERNS = [
+    re.compile(r"充电时间[:：]?\s*([\d\.]+)\s*小时"),
+    re.compile(r"快充\s*([\d\.]+)\s*小时"),
+]
 
-def extract_model_cn(text: str):
-    """
-    Extract product model from Chinese OCR text.
-    Example matches:
-    - 产品型号：P8828
-    - 型号 P8828
-    """
-    for pattern in MODEL_CN_PATTERNS:
+RUNTIME_CN_PATTERNS = [
+    re.compile(r"续航[:：]?\s*约?\s*(\d+)\s*分钟"),
+    re.compile(r"续航约(\d+)分钟"),
+]
+
+WEIGHT_CN_PATTERNS = [
+    re.compile(r"产品净重[:：]?\s*(\d+)\s*g", re.IGNORECASE),
+    re.compile(r"净重[:：]?\s*(\d+)\s*g", re.IGNORECASE),
+]
+
+
+# ---------- Extractors ----------
+
+def _extract(patterns, text, cast_fn):
+    for pattern in patterns:
         match = pattern.search(text)
         if match:
-            return match.group(1)
-    return None
-
-def extract_voltage_cn(text: str):
-    """
-    Extract voltage value from Chinese OCR text.
-    Example matches:
-    - 额定电压：5V
-    - 电压 5V
-    """
-    for pattern in VOLTAGE_CN_PATTERNS:
-        match = pattern.search(text)
-        if match:
-            return int(match.group(1))
+            return cast_fn(match.group(1))
     return None
 
 
-def extract_power_cn(text: str):
-    """
-    Extract power value from Chinese OCR text.
-    Example matches:
-    - 额定功率：4W
-    - 功率 4W
-    """
-    for pattern in POWER_CN_PATTERNS:
-        match = pattern.search(text)
-        if match:
-            return int(match.group(1))
-    return None
+def extract_model(text): return _extract(MODEL_CN_PATTERNS, text, str)
+def extract_voltage(text): return _extract(VOLTAGE_CN_PATTERNS, text, int)
+def extract_power(text): return _extract(POWER_CN_PATTERNS, text, int)
+def extract_charging_time(text): return _extract(CHARGING_TIME_CN_PATTERNS, text, float)
+def extract_runtime(text): return _extract(RUNTIME_CN_PATTERNS, text, int)
+def extract_weight(text): return _extract(WEIGHT_CN_PATTERNS, text, int)
+
+
+# ---------- Main ----------
 
 def run_cleaning():
-    import os
-    os.makedirs("data/processed", exist_ok=True)
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
     with open(INPUT_PATH, "r", encoding="utf-8") as infile, \
          open(OUTPUT_PATH, "w", newline="", encoding="utf-8") as outfile:
@@ -92,10 +80,15 @@ def run_cleaning():
             "model",
             "power_w",
             "voltage_v",
+            "charging_time_h",
+            "runtime_min",
+            "weight_g",
             "confidence",
             "status",
+            "raw_ocr_text",
             "created_at",
         ]
+
         writer = csv.DictWriter(outfile, fieldnames=fieldnames)
         writer.writeheader()
 
@@ -104,26 +97,15 @@ def run_cleaning():
             confidence = float(row["confidence"])
             status = row["status"]
 
-            # Model extraction (EN -> CN)
             model = extract_model(raw_text)
-            if model is None:
-                model = extract_model_cn(raw_text)
-
-            # Voltage extraction (EN -> CN)
             voltage_v = extract_voltage(raw_text)
-            if voltage_v is None:
-                voltage_v = extract_voltage_cn(raw_text)
-
-            # Power extraction (EN -> CN)
             power_w = extract_power(raw_text)
-            if power_w is None:
-                power_w = extract_power_cn(raw_text)
 
-            power_w = extract_power(raw_text)
-            voltage_v = extract_voltage(raw_text)
+            charging_time_h = extract_charging_time(raw_text)
+            runtime_min = extract_runtime(raw_text)
+            weight_g = extract_weight(raw_text)
 
-            # If critical fields are missing, downgrade status
-            if model is None or power_w is None or voltage_v is None:
+            if model is None or voltage_v is None or power_w is None:
                 status = "partial"
 
             writer.writerow({
@@ -131,8 +113,12 @@ def run_cleaning():
                 "model": model,
                 "power_w": power_w,
                 "voltage_v": voltage_v,
+                "charging_time_h": charging_time_h,
+                "runtime_min": runtime_min,
+                "weight_g": weight_g,
                 "confidence": confidence,
                 "status": status,
+                "raw_ocr_text": raw_text,
                 "created_at": datetime.utcnow().isoformat(),
             })
 
