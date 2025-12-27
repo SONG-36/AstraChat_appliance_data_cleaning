@@ -69,7 +69,51 @@ COLOR_CN_PATTERNS = [
     re.compile(r"颜色\s*[:：，,]?\s*([^\s，,]+)"),
 ]
 
+# ---------- Fallback numeric patterns ----------
+
+VOLTAGE_FALLBACK_PATTERNS = [
+    re.compile(r"\b(\d{1,3})\s*V\b", re.IGNORECASE),
+]
+
+POWER_FALLBACK_PATTERNS = [
+    re.compile(r"\b(\d{1,4})\s*W\b", re.IGNORECASE),
+]
+
+WEIGHT_FALLBACK_PATTERNS = [
+    re.compile(r"\b(\d{2,5})\s*(g|sg)\b", re.IGNORECASE),
+]
+
 # ---------- Extractors ----------
+def normalize_raw_text(text: str) -> str:
+    """
+    Light normalization for OCR raw text.
+    Goal: improve regex match rate without losing information.
+    """
+
+    if not text:
+        return ""
+
+    # 1. 统一换行为空格
+    text = text.replace("\n", " ").replace("\r", " ")
+
+    # 2. 中文标点统一
+    text = (
+        text.replace("，", ",")
+            .replace("：", ":")
+            .replace("；", ";")
+    )
+
+    # 3. 单位前后的多余空格
+    text = (
+        text.replace(" v", "V")
+            .replace(" w", "W")
+            .replace(" g", "g")
+    )
+
+    # 4. 多空格压缩
+    text = " ".join(text.split())
+
+    return text
 
 def _extract(patterns, text, cast_fn):
     for pattern in patterns:
@@ -78,10 +122,47 @@ def _extract(patterns, text, cast_fn):
             return cast_fn(match.group(1))
     return None
 
+def extract_with_fallback(primary_patterns, fallback_patterns, text, cast_fn):
+    # 1. Try strong patterns
+    for p in primary_patterns:
+        m = p.search(text)
+        if m:
+            return cast_fn(m.group(1))
+
+    # 2. Try fallback numeric patterns
+    for p in fallback_patterns:
+        m = p.search(text)
+        if m:
+            return cast_fn(m.group(1))
+
+    return None
 
 def extract_model(text): return _extract(MODEL_CN_PATTERNS, text, str)
-def extract_voltage(text): return _extract(VOLTAGE_CN_PATTERNS, text, int)
-def extract_power(text): return _extract(POWER_CN_PATTERNS, text, int)
+def extract_voltage(text):
+    return extract_with_fallback(
+        VOLTAGE_CN_PATTERNS,
+        VOLTAGE_FALLBACK_PATTERNS,
+        text,
+        int,
+    )
+
+
+def extract_power(text):
+    return extract_with_fallback(
+        POWER_CN_PATTERNS,
+        POWER_FALLBACK_PATTERNS,
+        text,
+        int,
+    )
+
+
+def extract_weight(text):
+    return extract_with_fallback(
+        WEIGHT_NET_CN_PATTERNS,
+        WEIGHT_FALLBACK_PATTERNS,
+        text,
+        int,
+    )
 
 def extract_charging_time(text: str):
     for pattern in CHARGING_TIME_CN_PATTERNS:
@@ -92,13 +173,6 @@ def extract_charging_time(text: str):
 
 def extract_runtime(text: str):
     for pattern in RUNTIME_CN_PATTERNS:
-        match = pattern.search(text)
-        if match:
-            return int(match.group(1))
-    return None
-
-def extract_weight(text: str):
-    for pattern in WEIGHT_NET_CN_PATTERNS:
         match = pattern.search(text)
         if match:
             return int(match.group(1))
@@ -142,7 +216,7 @@ def run_cleaning():
         writer.writeheader()
 
         for row in reader:
-            raw_text = row["raw_text"]
+            raw_text = normalize_raw_text(row["raw_text"])
             confidence = float(row["confidence"])
             status = row["status"]
 
