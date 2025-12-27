@@ -19,6 +19,22 @@ COLOR_KEYWORDS = [
     "红色", "蓝色", "绿色",
 ]
 
+def infer_power_source(voltage_v, charging_time_h):
+    """
+    Infer device power source based on extracted specs.
+    """
+
+    if charging_time_h is not None:
+        return "battery", True
+
+    if voltage_v is not None:
+        if voltage_v <= 5:
+            return "battery_or_usb", True
+        if voltage_v >= 12:
+            return "mains", False
+
+    return "unknown", False
+
 # ---------- Regex patterns ----------
 
 MODEL_CN_PATTERNS = [
@@ -210,6 +226,8 @@ def run_cleaning():
             "status",
             "raw_ocr_text",
             "created_at",
+            "power_source",
+            "battery_possible"
         ]
 
         writer = csv.DictWriter(outfile, fieldnames=fieldnames)
@@ -228,6 +246,11 @@ def run_cleaning():
             runtime_min = extract_runtime(raw_text)
             weight_g = extract_weight(raw_text)
             color = extract_color(raw_text)
+            power_source, battery_possible = infer_power_source(
+                voltage_v,
+                charging_time_h
+            )
+
 
             if model is None or voltage_v is None or power_w is None:
                 status = "partial"
@@ -244,9 +267,10 @@ def run_cleaning():
                 "confidence": confidence,
                 "status": status,
                 "raw_ocr_text": raw_text,
+                "power_source": power_source,
+                "battery_possible": battery_possible,
                 "created_at": datetime.utcnow().isoformat(),
             })
-
 
 if __name__ == "__main__":
     run_cleaning()
