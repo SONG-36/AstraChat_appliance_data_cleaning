@@ -1,4 +1,3 @@
-# scripts/classify_power_type.py
 """
 Classify device power type based on raw OCR text.
 
