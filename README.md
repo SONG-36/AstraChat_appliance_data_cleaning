@@ -27,17 +27,17 @@ are expected.
 - battery_possible
 
 ## Project Structure
-data/
-├── images/
-├── ocr/
-├── processed/
-scripts/
-├── classify_power_type.py
-├── analyze_field_coverage_by_power_type.py
-├── debug_charging_time_candidates.py
-├── run_pipeline.py
-src/
-├── clean_text.py
+- data/
+  - images/
+  - ocr/
+  - processed/
+- scripts/
+  - run_pipeline.py
+  - classify_power_type.py
+  - analyze_field_coverage_by_power_type.py
+  - debug_charging_time_candidates.py
+- src/
+  - clean_text.py
 
 ## How to Run
 ```bash
